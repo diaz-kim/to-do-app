@@ -15,7 +15,7 @@ function ToDoList () {
     function addTask(){
 
         if(newTask.trim()) {
-            //BROWSER IS GIVING ME A ERRORRRRRR??
+            //BROWSER IS GIVING ME AN ERROR
             //it's a string newTask is a string
 
             //OK browser was NOT giving me an error i cleared my cache
