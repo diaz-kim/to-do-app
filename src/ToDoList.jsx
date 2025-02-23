@@ -16,7 +16,11 @@ function ToDoList () {
 
         if(newTask.trim()) {
             //BROWSER IS GIVING ME A ERRORRRRRR??
-            // it's a string newTask is a string
+            //it's a string newTask is a string
+
+            //OK browser was NOT giving me an error i cleared my cache
+            //I needed to specify that i was only rendering tasks.text and not the entire task object: LINE 85
+
             //gave it a isCompleted field, so its an object now
             const newTaskObject = {text: newTask || "", isCompleted: false}
             //update
